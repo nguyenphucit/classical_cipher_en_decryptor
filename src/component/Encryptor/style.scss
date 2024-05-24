@@ -1,0 +1,169 @@
+.cryptorTool{
+    width: 50%;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+padding: 20px;
+margin-bottom: 50px;
+background: white;
+width: 60%;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.formwrapper{
+    width: 100%;
+}
+.column{
+    width: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form1{
+    width: 100%;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    &>.encryptTitle{
+        font-weight: 700;
+        color:#4a4a4a;
+        font-size: 35px;
+        align-self: center;
+    }
+    &>.field{
+        &>input,textarea{
+            width: 90%;
+            padding:5px 10px;
+            border:solid 1px #afaeae;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        &>.keyWrap{
+            flex:1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            &>#encryptKey{
+                padding:10px;
+                font-size: 16px;
+                width: fit-content;
+                border: 0;
+                border-bottom: #4a4a4a 1px solid;
+            }
+        }
+        &>.control{
+            &>#encryptPlainText{
+            height: 100px;
+            border-radius: 6px;
+            }
+        }
+    }
+    &>.columns{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &>.column{
+            margin-top: 20px;
+            flex:1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &>.select-wrapper{
+                width: 150px;
+                padding:10px;
+                border-radius: 20px;
+                border: solid  #afaeae 1px;
+                &>#encyrptChoice{
+                    border:none;
+                    outline: none;
+                    font-size: 14px;
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+            &>button{
+                color:white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:10px 20px;
+                background: #00d1b2;
+                border:none;
+                outline:none;
+                font-size: 16px;
+                border-radius: 6px;
+            }
+            &>button:hover{
+                background-color: #01b69b;
+                cursor: pointer;
+            }
+            &>.swap{
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+                font-size: 50px;
+                background-color:white;
+                border:1px solid #01b69b;
+                color:#01b69b;
+            }
+            &>.swap:hover{
+                background-color: #01b69b;
+                color:white;
+            }
+        }
+    }
+}
+
+.keyGenerate{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    background: #00d1b2;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.keyGenerate:hover{
+    background-color: #01b69b;
+    cursor: pointer;
+}
+.buttonReset{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    background: #f14668;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.buttonReset:hover{
+    background-color: #f0375c;
+    cursor: pointer;
+}
+
+.HillKey{
+    margin-right: 5px;
+    margin-top:5px;
+    border:none;
+    border-bottom: 1px solid #333333;
+    color:#333333;
+    width: fit-content;
+    text-align: center;
+    font-size: 14px;
+    width: 40px;
+}
