@@ -36,6 +36,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: check out react-script
-        run: npm ls react-scripts
+        run: ls
       - name: Deploy to github pages
         run: npm run deploy
