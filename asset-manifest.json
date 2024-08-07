@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/classical_cipher_en_decryptor/static/css/main.4a5a7fa0.css",
+    "main.js": "/classical_cipher_en_decryptor/static/js/main.e60a65b5.js",
+    "index.html": "/classical_cipher_en_decryptor/index.html",
+    "main.4a5a7fa0.css.map": "/classical_cipher_en_decryptor/static/css/main.4a5a7fa0.css.map",
+    "main.e60a65b5.js.map": "/classical_cipher_en_decryptor/static/js/main.e60a65b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a5a7fa0.css",
+    "static/js/main.e60a65b5.js"
+  ]
+}
